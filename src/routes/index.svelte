@@ -22,7 +22,6 @@
 	<button class="btn third">Register</button>
 </div>
 
-<<<<<<< HEAD
 <!-- <div class="section1">
     
 </div>
@@ -31,16 +30,38 @@
     <source src="assets/bggg.mp4" type="video/mp4">
   </video>
 </div> -->
-=======
 <div class="section1">
-    <video  class="video" autoplay loop muted>
+  <!-- <img class = "bg3" src="/assets/bg3.png" alt="" srcset=""> -->
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  </p>
+  <video  class="video" autoplay loop muted>
       <source src="assets/LostStories.mp4" type="video/mp4">
     </video>    
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-    </p>
+</div>
+
+
+<div class="section2">
+  <video  class="video1" autoplay loop muted>
+    <source src="assets/Neophilis.mp4" type="video/mp4">
+  </video> 
+  <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  </p>   
+</div>
+<div class="section3">
+  <video  class="video2" autoplay loop muted>
+    <source src="assets/vipul.mp4" type="video/mp4">
+  </video> 
+  <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  </p>   
 </div>
 <div class="section2">
   <video  class="video1" autoplay loop muted>
@@ -62,8 +83,17 @@
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
   </p>   
 </div>
+<div class="section2">
+  <video  class="video1" autoplay loop muted>
+    <source src="assets/Neophilis.mp4" type="video/mp4">
+  </video> 
+  <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  </p>   
 </div>
->>>>>>> ca0d75615de344e01395dfe06cced7c0a6986dbe
+</div>
   <!-- <Hero /> -->
 <!-- <div class="full">
 <Hero />
@@ -97,7 +127,6 @@
     width:620px;
     height:100%;
     left:5%;
-
   }
   .video1{
     position:absolute;
@@ -253,23 +282,7 @@
 
 
 
-// Reset and Layout Styles
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background: #2c3e50;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-}
-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
+
 
 
 
@@ -311,7 +324,6 @@ body {
 
 
 
-//BUTTON 3
 .third {
   border-color: #3498db;
   color: #fff;
@@ -331,9 +343,10 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden; 
-  background-image: url("assets/bg3.png");
+  background:url("assets/bg3.png") center top/auto 100% no-repeat;
+
   background-size: contain;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
 }
 .section2{
   position: relative;
@@ -356,50 +369,60 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background:url("assets/bg3.png") center top/auto 100% no-repeat;
   overflow: visible; 
   background-image: url("assets/bg3.png");
   background-size: contain;
-  background-repeat: no-repeat;
 }
 @media (max-width: 900px) {
-		.video{
-			width: 100%;
-		}
-		.video1{
-			width:100%;
-		}
-		.video2{
-			width:100%;
-		}
+  .video{
+    width:420px;
+    height:80%;
+    left:10%;
+    right: 10%;
+    top: 10%;
+  }
+  .video1{
+    width:420px;
+    height:80%;
+    left:10%;
+    right: 10%;
+    top: 30%;
+  }
+  .video2{
+    width:420px;
+    height:80%;
+    left:10%;
+    right: 10%;
+    top: 20%;
+  }
     .text{
-    position: absolute;
-    color: white;
-    top:250px;
-    right:0px;
+    top: 10px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    align-items: center;
   }
   .text1{
-    position: absolute;
-    color: black;
-    top:100px;
-    left:0px;
+    top: 10px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    align-items: center;
   }
   .text2{
-    position: absolute;
-    color: white;
-    top:250px;
-    right:0px;
+    top:10px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    align-items: center;
+  }
+  .section1{
+    height: 80vh;
+    background-size: cover;
+  }
+  .section2{
+    height: 60vh;
+    background-size: cover;
+
+  }
+  .section3{
+    height:80vh;
+    background-size: cover;
   }
 	}
 
